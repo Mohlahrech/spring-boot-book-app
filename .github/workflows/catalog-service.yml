@@ -9,6 +9,8 @@ on:
   pull_request:
     branches: [master]
 
+# Adding a comment to trigger workflow re-evaluation
+
 jobs:
   build:
     name: Build
